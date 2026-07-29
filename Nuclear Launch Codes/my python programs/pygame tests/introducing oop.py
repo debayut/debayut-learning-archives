@@ -33,6 +33,7 @@ class player(object):
         self.walkCount = 0
         self.jumpCount = 10
 
+#   this draws the character using the sprites
     def draw(self, win):
         if self.walkCount + 1 >= 27:
             self.walkCount = 0
@@ -47,7 +48,7 @@ class player(object):
             win.blit(char, (self.x,self.y))
 
 
-
+#this one draws the entire game window
 def redrawGameWindow():
     win.blit(bg, (0,0))
     man.draw(win)
