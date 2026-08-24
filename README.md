@@ -1,2 +1,4 @@
 # debayut-learning-archives
 this repo shall have all code and assets that debayut practiced upon while learning python, c , c++, etc ...
+
+its as shrimple as that
